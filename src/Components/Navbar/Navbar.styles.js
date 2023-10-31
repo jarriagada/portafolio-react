@@ -3,7 +3,7 @@ import { colors } from "../../Styles/colors";
 
 export const ContainerNavbar = styled.div`
   max-width: 100vw;
-  height: 150px;
+  height: 110px;
   box-shadow: ${colors.BOX_SHADOW};
   display: flex;
   align-items: center;
@@ -15,7 +15,7 @@ export const ContainerNavbar = styled.div`
 export const ContainerLogo = styled.div`
   display: flex;
   align-items: center;
-  margin-bottom: 50px;
+  
 
   h1,
   h2 {
@@ -93,7 +93,7 @@ export const Button = styled.button`
 
 export const ContainerBurguer = styled.div`
   display: none;
-  margin-bottom: 50px;
+
   @media (max-width: 768px) {
     display: block;
   }
